@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Dialog, Portal, Text } from 'react-native-paper';
-import { HomeScreenNavigationProp } from '../page_stack/RootStackParamList';
+import { HomeScreenNavigationProp } from '../router/RootStackParamList';
 
 export default function NotificationDialog({
   navigation,

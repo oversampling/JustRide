@@ -10,3 +10,8 @@ export type HomeScreenNavigationProp = NativeStackNavigationProp<
   RootStackParamList,
   'Home'
 >;
+
+export type RequestCarPoolScreenNavigationProp = NativeStackNavigationProp<
+  RootStackParamList,
+  'RequestCarPool'
+>;

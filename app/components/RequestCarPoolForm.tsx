@@ -3,7 +3,7 @@ import { Avatar, Button, Card, TextInput } from 'react-native-paper';
 import { ScrollView, View } from 'react-native';
 import * as Location from 'expo-location';
 
-import { HomeScreenNavigationProp } from '../page_stack/RootStackParamList';
+import { HomeScreenNavigationProp } from '../router/RootStackParamList';
 import NotificationDialog from './NotificationDialog';
 import Map from './Map';
 import { TimePicker } from './TimePicker';

@@ -1,6 +1,6 @@
 import { View } from 'react-native';
 import RequestCarPoolForm from './components/RequestCarPoolForm';
-import { HomeScreenNavigationProp } from './page_stack/RootStackParamList';
+import { HomeScreenNavigationProp } from './router/RootStackParamList';
 
 export function RequestCarPool({
   navigation,

@@ -1,4 +1,4 @@
-import { HomeScreenNavigationProp } from './page_stack/RootStackParamList';
+import { HomeScreenNavigationProp } from './router/RootStackParamList';
 import ActionCard from './components/ActionCard';
 import React from 'react';
 import { ScrollView, View, Text } from 'react-native';
