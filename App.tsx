@@ -6,9 +6,10 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { HomeScreen } from './app/Home';
 import { RequestCarPool } from './app/RequestCarPool';
 import OfferCarPool from './app/OfferCarPool';
+import { enGB, registerTranslation } from 'react-native-paper-dates';
 
 const Stack = createNativeStackNavigator();
-
+registerTranslation('en-GB', enGB);
 export default function App() {
   return (
     <PaperProvider>
